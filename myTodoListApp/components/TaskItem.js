@@ -23,10 +23,10 @@ export default function TaskItem(props) {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    padding: '1rem',
+    padding: 10,
   },
   indexContainer: {
-    marginHorizontal: '1rem',
+    marginHorizontal: 10,
     backgroundColor: '#3E3364',
     borderRadius: 10,
     width: 50,
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '1rem',
+    padding: 10,
     minHeight: 50,
   },
   contentColor: {
